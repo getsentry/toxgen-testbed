@@ -221,7 +221,7 @@ def fetch_package_dependencies(
         "install",
         f"{package}=={version}",
         "--only-binary",
-        "apache-beam",
+        "grpcio-tools",
         "--dry-run",
         "--ignore-installed",
         "--report",
