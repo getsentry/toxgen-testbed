@@ -220,6 +220,8 @@ def fetch_package_dependencies(
         "pip",
         "install",
         f"{package}=={version}",
+        "--only-binary",
+        "apache-beam",
         "--dry-run",
         "--ignore-installed",
         "--report",
