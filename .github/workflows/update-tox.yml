@@ -6,7 +6,6 @@ on:
 jobs:
   update-tox:
     name: Update test matrix
-    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
