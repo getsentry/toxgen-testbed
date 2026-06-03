@@ -1,0 +1,12 @@
+[project]
+name = "toxgen-testbed"
+version = "0.1.0"
+requires-python = ">=3.14"
+[dependency-groups]
+toxgen = [
+    "jinja2",
+    "packaging<26.0",
+    "pip",
+    "requests",
+    "sentry_sdk",
+]
